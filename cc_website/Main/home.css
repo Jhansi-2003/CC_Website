@@ -1,0 +1,58 @@
+body{
+    width: 100%;
+    height: 200%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+#navbar{
+    width: 100%;
+    height: 30%;
+    border-bottom: solid 1px black;
+    display: flex;
+}
+#navbar > .img{
+    width: 50%;
+    height: 100%;
+    margin: 0.5%;
+    
+}
+.img{
+    display: flex;
+}
+.img >img{
+    width: 12%;
+    height: 12%;
+    border: solid 1px white;
+    border-radius: 50%;
+}
+.img > h1{
+    padding-left: 1%;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+#nav{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+a{
+    text-decoration: none;
+}
+#container{
+    width: 100%;
+    height: 70%;
+    background-color: aliceblue;
+}
+.workshops{
+    width: 50%;
+    height: 40%;
+    border: solid 1px black;
+}

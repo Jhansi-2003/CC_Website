@@ -1,0 +1,259 @@
+body {
+    height: 200%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+}
+
+.section1,
+.section2 {
+    height: 30%;
+    width: 85%;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin-left: 7.5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    background-color: aliceblue;
+}
+.section2>p{
+    text-align: justify;
+}
+
+.section3 {
+    height: 100%;
+    width: 85%;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin-left: 7.5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    padding-left: 2%;
+    padding-right: 2%;
+    /* padding-top: 1%; */
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+#outcome {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.outcome3 {
+    width: 31%;
+    height: 100%;
+    border: solid 1px blue;
+    border-radius: 5px;
+    margin: 1.1%;
+    background-color: white;
+}
+
+.outcome1 {
+    width: 31%;
+    height: 100%;
+    border: solid 1px blue;
+    border-radius: 5px;
+    margin: 1.1%;
+    background-color: white;
+}
+
+.outcome2 {
+    width: 31%;
+    height: 100%;
+    border: solid 1px blue;
+    border-radius: 5px;
+    margin: 1.1%;
+    background-color: white;
+}
+
+.outcome3>h3 {
+    text-align: center;
+    border-bottom: solid 1px black;
+    padding-bottom: 4.5%;
+}
+
+.outcome2>h3 {
+    text-align: center;
+    border-bottom: solid 1px black;
+    padding-bottom: 4.5%;
+}
+
+.outcome1>h3 {
+    text-align: center;
+    border-bottom: solid 1px black;
+    padding-bottom: 4.5%;
+}
+
+.outcome1>img {
+    width: 90%;
+    padding: 5%;
+}
+
+.outcome2>img {
+    width: 90%;
+    padding: 5%;
+}
+
+.outcome3>img {
+    width: 90%;
+    padding: 5%;
+}
+
+
+.section4{
+    height: 70%;
+    width: 85%;
+    border: solid 1px black;
+    border-radius: 10px;
+    margin-left: 7.5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    padding-left: 2%;
+    padding-right: 2%;
+    /* padding-top: 1%; */
+    padding-bottom: 1%;
+    text-align: center;
+}
+
+#tl {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.tl3 {
+    width: 31%;
+    height: 100%;
+    /* border: solid 1px black; */
+    border-radius: 25px;
+    margin: 1.1%;
+    background-color: white;
+}
+
+.tl1 {
+    width: 31%;
+    height: 100%;
+    /* border: solid 1px black; */
+    border-radius: 25px;
+    margin: 1.1%;
+    background-color: white;
+}
+
+.tl2 {
+    width: 31%;
+    height: 100%;
+    /* border: solid 1px black; */
+    border-radius: 25px;
+    margin: 1.1%;
+    background-color: white;
+}
+.tl4 {
+    width: 31%;
+    height: 100%;
+    /* border: solid 1px black; */
+    border-radius: 25px;
+    margin: 1.1%;
+    background-color: white;
+}
+
+.tl3>h3 {
+    text-align: center;
+    border-bottom: solid 1px black;
+    padding-bottom: 4.5%;
+}
+
+.tl2>h3 {
+    text-align: center;
+    border-bottom: solid 1px black;
+    padding-bottom: 4.5%;
+}
+
+.tl1>h3 {
+    text-align: center;
+    border-bottom: solid 1px black;
+    padding-bottom: 4.5%;
+}
+.tl4>h3 {
+    text-align: center;
+    border-bottom: solid 1px black;
+    padding-bottom: 4.5%;
+}
+
+.tl1>img {
+    width: 90%;
+    padding: 5%;
+}
+
+.tl2>img {
+    width: 90%;
+    padding: 5%;
+}
+
+.tl3>img {
+    width: 90%;
+    padding: 5%;
+}
+.tl4>img {
+    width: 90%;
+    padding: 5%;
+}
+
+#secretary {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sec {
+    width: 25%;
+    height: 60%;
+    /* border: solid 1px black; */
+    border-radius: 25px;
+    margin: 1.1%;
+    background-color: white;
+}
+.sec>h3 {
+    text-align: center;
+    border-bottom: solid 1px black;
+    padding-bottom: 4.5%;
+    
+}
+.sec>img {
+    width: 90%;
+    padding: 5%;
+    display: flex;
+   
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}

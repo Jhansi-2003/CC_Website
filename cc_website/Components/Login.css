@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    background-size: cover;
+}
+#container{
+    width: 100%;
+    max-width: 400px;
+    background: black;
+    padding: 25px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+}
+.form-title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: solid 1px white;
+}
+
+.user-input-box:nth-child(2n){
+    justify-content: end;
+}
+
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 15px;
+    margin-top: 10%;
+}
+
+.user-input-box input{
+    height: 40px;
+    width: 100%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+    margin-bottom: 10%;
+}
+
+.form-submit-btn input{
+    cursor: pointer;
+}
+.form-submit-btn input{
+    display: block;
+    width: 100%;
+    /* margin-top: 10px; */
+    font-size: 20px;
+    padding: 10px;
+    border:none;
+    border-radius: 3px;
+    color: black;
+    background: aquamarine;
+}
+
+.form-submit-btn input:hover{
+    background: rgb(166, 196, 187);
+    color: rgb(255, 255, 255);
+}
